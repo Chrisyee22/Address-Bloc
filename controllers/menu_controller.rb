@@ -15,7 +15,7 @@ class MenuController
         puts "3 - Search for an entry"
         puts "4 - Import entries from a CSV"
         puts "5 - View Entry Number n"
-        puts "6 - Nuke"
+        puts "6 - Nuke entries"
         puts "7 - Exit"
         print "Enter your selection: "
         
@@ -50,7 +50,6 @@ class MenuController
             main_menu
             when 7
             puts "Good-bye!"
-            
             exit(0)
             
             else
